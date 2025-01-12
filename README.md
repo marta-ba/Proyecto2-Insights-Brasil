@@ -26,7 +26,7 @@
 
         
         ├── data/                # Datos crudos y procesados
-        ├── notebooks/           # Notebooks de Jupyter con el análisis
+        ├── Proyecto_EDA_Brasil/ # Notebooks de Jupyter con el análisis
         ├── src/                 # Scripts de procesamiento y modelado
         ├── results/             # Gráficos y archivos de resultados
         ├── README.md            # Descripción del proyecto
@@ -44,11 +44,47 @@
 
 ## 📊 Resultados y Conclusiones
 
-   - Presenta un resumen de los hallazgos más importantes.
+- Órganos con menor ejecución presupuestaria:
 
-   - Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
+Se identificaron los órganos con los porcentajes más bajos de ejecución presupuestaria. Entre ellos destacan:
+      
+      - Hospital Cristo Redentor S.A. y Agencia Espacial Brasileña, con un porcentaje de ejecución promedio inferior al 6%.
 
-   - Explica cómo los resultados pueden ser útiles para los usuarios o tomadores de decisiones.
+Estos resultados revelan áreas críticas donde la planeación y ejecución presupuestaria necesitan mejoras sustanciales.
+
+- Órganos con mayor inconsistencia (desviación estándar):
+
+Los órganos con mayor variabilidad en la ejecución a lo largo del tiempo incluyen:
+         
+         - Ministerio del Medio Ambiente (unidades vinculadas) y Servicio Federal de Procesamiento de Datos.
+
+Esto sugiere que no cuentan con una planificación financiera estable, dificultando la asignación eficiente de recursos.
+
+
+- Evolución de las variables clave en el tiempo:
+
+Al evaluar las variables Previsión, Real, Diferencia Absoluta, y Porcentaje de Desviación, se observó lo siguiente:
+
+      - Previsión y Real presentan valores relativamente constantes, indicando estabilidad en la planificación de presupuestos totales, pero sin una mejora significativa en los resultados.
+
+      - Porcentaje de Desviación muestra una tendencia uniforme, lo que podría estar relacionado con una falta de ajustes en la metodología de previsión o ejecución.
+
+
+**Conclusiones**
+
+1. Planificación Presupuestaria Ineficiente en Órganos Clave:
+
+         Los órganos con bajo porcentaje de ejecución y alta inconsistencia evidencian deficiencias en la gestión presupuestaria, ya sea por falta de planeación, ejecución inadecuada o problemas estructurales.
+
+2. Análisis de Tendencias en el Tiempo:
+
+         La estabilidad en los valores de Previsión y Real sugiere que no hay esfuerzos significativos para mejorar la ejecución en el tiempo. Esto puede indicar que no se están realizando ajustes basados en aprendizajes de años anteriores.
+
+3. Propuesta de Mejora:
+
+         - Los órganos con baja ejecución deben ser priorizados para revisar sus planes de acción.
+         
+         - Implementar métodos de evaluación y ajuste más dinámicos en los procesos de previsión y ejecución podría mejorar la eficiencia presupuestaria.
 
 
 
